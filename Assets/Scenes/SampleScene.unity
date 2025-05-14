@@ -3584,8 +3584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81762167062a6b643b324227e173c009, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swimForce: 10
-  dragForce: 0.25
+  swimForce: 2
+  dragForce: 1
   minForce: 0
   minTimeBetweenStrokes: 0
   leftControllerSwimReference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
