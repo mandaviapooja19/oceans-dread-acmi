@@ -354,7 +354,7 @@
                 {
                     "name": "Velocity",
                     "type": "Value",
-                    "id": "5fffc9b2-0abf-4ffa-aa69-a2289c09a308",
+                    "id": "68e815df-f7be-400d-9626-0bebf47da41b",
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
@@ -573,8 +573,8 @@
                 },
                 {
                     "name": "",
-                    "id": "37e5c029-bab7-4ffc-a04d-07d9a1f46c22",
-                    "path": "<OculusTouchController>{LeftHand}/devicePose/velocity",
+                    "id": "904cf083-ad83-4ef9-b600-28c89dcf55c1",
+                    "path": "<QuestProTouchController>{LeftHand}/devicePose/velocity",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -656,6 +656,15 @@
                     "type": "Value",
                     "id": "bfa204c7-3c92-4193-bad1-39eb71920042",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "f27dc01a-faa2-4dcd-970c-8048de7eb56e",
+                    "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -791,6 +800,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a35a1370-0118-46ab-a348-6080a42f1fbd",
+                    "path": "<QuestProTouchController>{LeftHand}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1070,7 +1090,7 @@
                 {
                     "name": "Velocity",
                     "type": "Value",
-                    "id": "567b76d8-0633-48af-a8e1-86b4db4fabb0",
+                    "id": "4df3a4bc-a093-4688-a496-d611edfed5cb",
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
@@ -1289,8 +1309,8 @@
                 },
                 {
                     "name": "",
-                    "id": "de545e29-73f1-42d5-a608-63c16f9d8f7a",
-                    "path": "<OculusTouchController>{RightHand}/devicePose/velocity",
+                    "id": "bc5486d8-1b0d-442a-8fde-b9f3f5d7aceb",
+                    "path": "<QuestProTouchController>{RightHand}/devicePose/velocity",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1372,6 +1392,15 @@
                     "type": "Value",
                     "id": "6f7cf253-7062-443b-b10f-2be48a33f027",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "e5283ce6-bda0-4264-8906-6549dd9681fe",
+                    "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -1507,6 +1536,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca972221-2cc6-40d9-b3bd-4311c0eb3a79",
+                    "path": "<QuestProTouchController>{RightHand}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

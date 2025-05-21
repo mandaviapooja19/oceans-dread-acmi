@@ -31,13 +31,19 @@ public class Swimmer : MonoBehaviour
 
     void FixedUpdate(){
         _cooldownTimer += Time.fixedDeltaTime;
+        // Debug.Log($"Cooldown timer value ---> {_cooldownTimer > minTimeBetweenStrokes }");
+        
         if(_cooldownTimer > minTimeBetweenStrokes && leftControllerSwimReference.action.IsPressed() && rightControllerSwimReference.action.IsPressed()){
+            Debug.Log("Moving 1111 ????");
+            Debug.Log("Lefthand velocity -> "+ leftControllerVelocity.action.ReadValue<Vector3>());
+            Debug.Log("Righthand velocity -> "+ rightControllerVelocity.action.ReadValue<Vector3>());
             var leftHandVelocity = leftControllerVelocity.action.ReadValue<Vector3>();
             var rightHandVelocity = rightControllerVelocity.action.ReadValue<Vector3>();
             Vector3 localVelocity = leftHandVelocity + rightHandVelocity;
             localVelocity *= -1;
 
             if(localVelocity.sqrMagnitude > minForce * minForce){
+                Debug.Log("Moving 22222 ????");
                 Vector3 worldVelocity = trackingReference.TransformDirection(localVelocity);
                 _rigidBody.AddForce(worldVelocity * swimForce, ForceMode.Acceleration);
                 _cooldownTimer = 0f;
@@ -45,6 +51,7 @@ public class Swimmer : MonoBehaviour
         }
 
         if(_rigidBody.velocity.sqrMagnitude > 0.01f){
+            Debug.Log("Stopping ????");
             _rigidBody.AddForce(-_rigidBody.velocity * dragForce, ForceMode.Acceleration);
         }
     }
