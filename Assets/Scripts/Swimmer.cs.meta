@@ -3,7 +3,12 @@ guid: 81762167062a6b643b324227e173c009
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - leftControllerSwimReference: {instanceID: 0}
+  - leftControllerVelocity: {instanceID: 0}
+  - rightControllerSwimReference: {instanceID: 0}
+  - rightControllerVelocity: {instanceID: 0}
+  - trackingReference: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
