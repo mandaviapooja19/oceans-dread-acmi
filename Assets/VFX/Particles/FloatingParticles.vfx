@@ -20,7 +20,7 @@ MonoBehaviour:
     x: 939
     y: -190
     width: 451
-    height: 2202
+    height: 2166
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -151,7 +151,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 137.7
+      m_SerializableObject: 176.6
     m_Space: 2147483647
   m_Property:
     name: Rate
@@ -219,7 +219,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614583}
   - {fileID: 8926484042661614585}
   dataType: 0
-  capacity: 32000
+  capacity: 44127
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 1
@@ -680,7 +680,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3.23
+      m_SerializableObject: 1.86
     m_Space: 2147483647
   m_Property:
     name: B
@@ -758,7 +758,7 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link: []
-  blendMode: 1
+  blendMode: 3
   useAlphaClipping: 1
   generateMotionVector: 0
   excludeFromTAA: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":-0.02916717529296875,"value":0.28485107421875,"inTangent":1.1563383340835572,"outTangent":1.1563383340835572,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false},{"time":0.6081773638725281,"value":1.0218369960784913,"inTangent":0.14866814017295838,"outTangent":0.14866814017295838,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false},{"time":0.991668701171875,"value":0.6924171447753906,"inTangent":-0.8590020537376404,"outTangent":-0.8590020537376404,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"frames":[{"time":-0.012500762939453125,"value":-0.00262451171875,"inTangent":1.6505519151687623,"outTangent":1.6505519151687623,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false},{"time":0.6081773638725281,"value":1.0218369960784913,"inTangent":-0.4797850251197815,"outTangent":-0.4797850251197815,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false},{"time":0.991668701171875,"value":0.020877838134765626,"inTangent":-2.610121965408325,"outTangent":-2.610121965408325,"tangentMode":0,"leftTangentMode":1,"rightTangentMode":1,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     m_Space: 2147483647
   m_Property:
     name: Size
@@ -944,7 +944,7 @@ MonoBehaviour:
   AlphaComposition: 0
   SampleMode: 0
   Mode: 1
-  ColorMode: 3
+  ColorMode: 1
   channels: 6
 --- !u!114 &8926484042661614594
 MonoBehaviour:
@@ -971,7 +971,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.5529412031173706,"time":0.1411764770746231},{"alpha":0.7254902124404907,"time":0.7205920219421387},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.19999998807907105,"g":0.3623287081718445,"b":0.5,"a":1.0},"time":0.0},{"color":{"r":0.07604129612445831,"g":0.08755356073379517,"b":0.15094339847564698,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.5529412031173706,"time":0.1411764770746231},{"alpha":0.7254902124404907,"time":0.7205920219421387},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -2232,7 +2232,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.76
+      m_SerializableObject: 0.43
     m_Space: 2147483647
   m_Property:
     name: A
@@ -2266,7 +2266,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.28
+      m_SerializableObject: 0.12
     m_Space: 2147483647
   m_Property:
     name: B
